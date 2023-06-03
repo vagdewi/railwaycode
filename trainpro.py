@@ -33,3 +33,26 @@ def display_info(self):
         
  #    We define a book_tickets() method for the Train class, which takes a number of tickets as input and attempts to book that many tickets on the train. If there are enough available seats, the method generates a list of random PNRs equal to the number of tickets being booked, updates the number of available seats, and returns the list of PNRs. Otherwise, the method returns None to indicate that the booking failed.
 
+class Passenger:
+    def __init__(self, name, age, gender, phone):
+        self.name = name
+        self.age = age
+        self.gender = gender
+        self.phone = phone
+        
+       
+# The Passenger class is defined, which takes in four parameters - name, age, gender, and phone. These parameters are used to initialize the attributes of the Passenger object.
+def display_info(self):
+        print(f"Name: {self.name}")
+        print(f"Age: {self.age}")
+        print(f"Gender: {self.gender}")
+        print(f"Phone Number: {self.phone}")
+        
+      
+  class Ticket:
+    def __init__(self, train, source, destination, passengers, pnr):
+        self.train = train
+        self.source = source
+        self.destination = destination
+        self.passengers = passengers
+        self.pnr = pnr
